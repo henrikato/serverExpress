@@ -1,0 +1,25 @@
+{
+  "name": "projetoexpress",
+  "version": "0.0.1",
+  "description": "Projeto de Testes utilizando Express",
+  "main": "start.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrikato/serverExpress.git"
+  },
+  "author": "Eu, Kato.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.18.3",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node8": "^1.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
