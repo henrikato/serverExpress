@@ -4,22 +4,29 @@
   "description": "Projeto de Testes utilizando Express",
   "main": "start.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/henrikato/serverExpress.git"
+    "url": "git+https://github.com/henrikato/serverExpress.git"
   },
   "author": "Eu, Kato.",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "async": "^2.6.2",
     "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-node8": "^1.2.0",
     "nodemon": "^1.18.10"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/henrikato/serverExpress/issues"
+  },
+  "homepage": "https://github.com/henrikato/serverExpress#readme"
 }
