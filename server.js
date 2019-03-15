@@ -18,7 +18,11 @@ var port = process.env.port || 3000;
 //var router = express.Router();
 import Produto from './app/controllers/produtoController';
 import Autor from './app/controllers/autorController';
+<<<<<<< HEAD
 import Livro from './app/controllers/livroController';
+=======
+import Artigo from './app/controllers/artigoController';
+>>>>>>> 74555661ec0f38fbcbd94b00e1dc84b7de45a850
 
 //Middleware
 // router.use((req, res, next) => {
@@ -32,7 +36,11 @@ import Livro from './app/controllers/livroController';
 
 //Vincular a aplicação 'app' ao motor de rotas
 //app.use('/api', router);
+<<<<<<< HEAD
 app.use('/api', [Produto, Autor, Livro]);
+=======
+app.use('/api', [Produto, Autor, Artigo]);
+>>>>>>> 74555661ec0f38fbcbd94b00e1dc84b7de45a850
 
 app.listen(port, () => {
     console.log(`Aplicação online na porta ${port}.`)
